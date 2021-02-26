@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1666186674, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 2
+  lastUpdatedAtString: 2021-02-26T17:56:26.005+01:00
+  initializedAtString: 2021-02-26T17:43:19.502+01:00
+  localBranches:
+  - name: develop
+    tracking: origin/develop
+  - name: main
+    tracking: origin/main
+  - name: Models3D
+    tracking: origin/Models3D
+  - name: feature/killMob
+    tracking: origin/feature/killMob
+  - name: feature/map
+    tracking: origin/feature/map
+  - name: feature/ui
+    tracking: origin/feature/ui
+  remoteBranches:
+  - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/main
+    tracking: '[None]'
+  - name: origin/Models3D
+    tracking: '[None]'
+  - name: origin/feature/killMob
+    tracking: '[None]'
+  - name: origin/feature/map
+    tracking: '[None]'
+  - name: origin/feature/ui
+    tracking: '[None]'
+  remotes:
+  - name: origin
+    url: https://github.com/FRAGNIERES-Maxime/EpikemonGo.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
+  localConfigBranches:
+    keys:
+    - develop
+    - main
+    - Models3D
+    - feature/killMob
+    - feature/map
+    - feature/ui
+    values:
+    - name: develop
+      remote:
+        name: origin
+        url: https://github.com/FRAGNIERES-Maxime/EpikemonGo.git
+      trackingBranch: develop
+    - name: main
+      remote:
+        name: origin
+        url: https://github.com/FRAGNIERES-Maxime/EpikemonGo.git
+      trackingBranch: main
+    - name: Models3D
+      remote:
+        name: origin
+        url: https://github.com/FRAGNIERES-Maxime/EpikemonGo.git
+      trackingBranch: Models3D
+    - name: feature/killMob
+      remote:
+        name: origin
+        url: https://github.com/FRAGNIERES-Maxime/EpikemonGo.git
+      trackingBranch: feature/killMob
+    - name: feature/map
+      remote:
+        name: origin
+        url: https://github.com/FRAGNIERES-Maxime/EpikemonGo.git
+      trackingBranch: feature/map
+    - name: feature/ui
+      remote:
+        name: origin
+        url: https://github.com/FRAGNIERES-Maxime/EpikemonGo.git
+      trackingBranch: feature/ui
+  remoteConfigBranches:
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - HEAD
+      - main
+      - Models3D
+      - feature/killMob
+      - feature/map
+      - feature/ui
+    subKeyValues:
+    - Values:
+      - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/FRAGNIERES-Maxime/EpikemonGo.git
+        trackingBranch: 
+      - name: main
+        remote:
+          name: origin
+          url: https://github.com/FRAGNIERES-Maxime/EpikemonGo.git
+        trackingBranch: 
+      - name: Models3D
+        remote:
+          name: origin
+          url: https://github.com/FRAGNIERES-Maxime/EpikemonGo.git
+        trackingBranch: 
+      - name: feature/killMob
+        remote:
+          name: origin
+          url: https://github.com/FRAGNIERES-Maxime/EpikemonGo.git
+        trackingBranch: 
+      - name: feature/map
+        remote:
+          name: origin
+          url: https://github.com/FRAGNIERES-Maxime/EpikemonGo.git
+        trackingBranch: 
+      - name: feature/ui
+        remote:
+          name: origin
+          url: https://github.com/FRAGNIERES-Maxime/EpikemonGo.git
+        trackingBranch: 
+  configRemotes:
+    keys:
+    - origin
+    values:
+    - name: origin
+      url: https://github.com/FRAGNIERES-Maxime/EpikemonGo.git
